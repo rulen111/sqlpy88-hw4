@@ -167,8 +167,8 @@ if __name__ == "__main__":
     with psycopg2.connect(database="netology_hw4", user="postgres", password="postgres") as conn:
         with conn.cursor() as cur:
             # Deleting tables
-            drop_tables(cur)
-            conn.commit()
+            # drop_tables(cur)
+            # conn.commit()
 
             # Creating tables
             create_tables(cur)
