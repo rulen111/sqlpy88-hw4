@@ -193,3 +193,4 @@ if __name__ == "__main__":
             # Searching for entries
             print(get_client(cur, client_id=None, first_name="%", last_name="Sanyich", email="%", phone=None))
             print(get_client(cur, client_id=None, first_name="%", last_name="%", email="%", phone=79999999998))
+    conn.close()
